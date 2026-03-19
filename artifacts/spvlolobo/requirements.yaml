@@ -1,0 +1,25 @@
+packages:
+  "framer-motion": "For complex page transitions, scroll animations, and floating decorative elements"
+  "embla-carousel-react": "For smooth, accessible image carousels on the detail pages"
+  "lucide-react": "For beautiful UI icons"
+  "clsx": "For conditional class name merging"
+  "tailwind-merge": "For merging tailwind classes safely"
+
+images:
+  - path: "artifacts/spvlolobo/public/images/hero-bg.png"
+    description: "Abstract African traditional Baoule Kente woven pattern background with geometric shapes in vivid orange, royal blue, and gold"
+    aspect_ratio: "16:9"
+  - path: "artifacts/spvlolobo/public/images/village-landscape.png"
+    description: "Beautiful scenic landscape of a traditional African village in Ivory Coast at sunset, lush green savanna, warm golden hour lighting"
+    aspect_ratio: "16:9"
+  - path: "artifacts/spvlolobo/public/images/baoule-mask.png"
+    description: "Elegant traditional Ivorian Baoule carved wooden mask, isolated on a transparent background"
+    aspect_ratio: "1:1"
+  - path: "artifacts/spvlolobo/public/images/aol-community.png"
+    description: "Group of joyful African community members working together on a village project, warm lighting, cinematic photography"
+    aspect_ratio: "16:9"
+
+notes:
+  - "Frontend only, no API integration needed."
+  - "Animations heavily rely on framer-motion."
+  - "Wouter is used for routing."

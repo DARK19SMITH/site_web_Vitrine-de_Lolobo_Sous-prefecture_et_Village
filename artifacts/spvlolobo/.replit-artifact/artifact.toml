@@ -1,0 +1,31 @@
+kind = "web"
+previewPath = "/"
+title = "SPVLolobo"
+version = "1.0.0"
+id = "artifacts/spvlolobo"
+router = "path"
+
+[[integratedSkills]]
+name = "react-vite"
+version = "1.0.0"
+
+[[services]]
+name = "web"
+paths = [ "/" ]
+localPort = 20960
+
+[services.development]
+run = "pnpm --filter @workspace/spvlolobo run dev"
+
+[services.production]
+build = [ "pnpm", "--filter", "@workspace/spvlolobo", "run", "build" ]
+publicDir = "artifacts/spvlolobo/dist/public"
+serve = "static"
+
+[[services.production.rewrites]]
+from = "/*"
+to = "/index.html"
+
+[services.env]
+PORT = "20960"
+BASE_PATH = "/"

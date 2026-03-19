@@ -1,0 +1,90 @@
+Crée un site web vitrine complet en React nommé SPVLolobo pour présenter le village de Lolobo (Bouaké) et la Sous-préfecture de Lolobo en Côte d'Ivoire.
+
+Identité visuelle du site :
+
+Nom du site : SPVLolobo
+Le nom SPVLolobo doit apparaître de façon prominente et artistique sur toutes les pages : dans le header/navbar, le favicon, les titres d'onglets et le footer
+Écran de chargement (splash screen) : animation d'intro avec le nom SPVLolobo qui apparaît progressivement sur fond de motifs Baoulé animés avant d'accéder au site
+
+
+Structure du site (4 pages) :
+
+Page principale (Home) — Présentation brève des deux localités avec images, et boutons de navigation vers les pages détaillées.
+Page Village de Lolobo — Présentation détaillée : histoire, population, géographie, culture, activités, photos. Contient un lien direct vers la page AOL.
+Page Sous-préfecture de Lolobo — Présentation détaillée : administration, villages rattachés, infrastructures, données officielles.
+Page AOL — Akounda Oufle de Lolobo — Page dédiée à l'association villageoise : présentation, missions, membres, activités, galerie photos, contacts. Accessible uniquement depuis la page Village.
+
+
+Stack technique :
+
+React (avec React Router pour la navigation entre pages)
+CSS3 custom (pas de Bootstrap, pas de Tailwind) — animations keyframes, flexbox/grid, scroll-snap
+SVG animés pour tous les éléments décoratifs culturels
+Toutes les données sont en statique (hardcodées dans les composants ou fichiers JSON locaux)
+Aucune base de données, aucun backend, aucune page admin
+Site entièrement frontend only
+
+
+Décoration Artistique & Culturelle — PRIORITÉ ABSOLUE :
+Le site doit être visuellement somptueux, immersif et profondément ancré dans la culture Baoulé. Chaque page doit respirer l'art africain :
+
+Motifs Baoulé omniprésents : bordures en tissus Kita/Kente stylisés en SVG animés, symboles Adinkra en filigrane sur les fonds de sections, masques Baoulé décoratifs en SVG dans les coins et séparateurs de sections
+Séparateurs de sections artistiques : formes géométriques africaines animées (losanges, triangles, zigzags) en Orange et Bleu entre chaque section
+Fonds texturés : textures de terre ocre, de pagne, de bois sculpté en CSS ou SVG sur les arrière-plans
+Éléments flottants animés : petits symboles culturels (cauris, tam-tams, masques miniatures) qui flottent doucement en arrière-plan sur toutes les pages
+Typographie africaine : titres en police bold avec effet de relief doré ou orange brillant
+Palette riche : Orange vif, Bleu royal, Blanc cassé, touches d'Or et de Terre pour les accents décoratifs
+Header spectaculaire : grande bannière animée avec nom SPVLolobo en grand, motifs Baoulé qui se déplacent lentement, titre avec effet de brillance
+Footer artistique : bande de tissu Kente animée, nom SPVLolobo, symboles Adinkra, informations de contact dans un cadre décoratif
+Icônes personnalisées : toutes les icônes du site dessinées dans un style africain/Baoulé
+
+
+Animations Super-Slides (priorité maximale) :
+
+Slides horizontaux : carrousels d'images fluides avec effet glissement gauche/droite, transitions easing premium (cubic-bezier), auto-play avec pause au hover, indicateurs de navigation animés
+Slides verticaux : défilement de sections en scroll-snap vertical, révélation progressive des contenus vers le haut/bas, effet de rideau vertical sur les images
+Slides diagonaux & combinés : transitions en zoom+glissement simultané, effets Ken Burns sur les images de fond, parallaxe multi-couches horizontal et vertical
+Animations d'entrée : chaque élément (titre, texte, image, carte) entre en scène avec slide-up, slide-left, slide-right selon sa position sur la page via Intersection Observer
+Micro-animations : boutons avec effet de vague au clic, icônes Baoulé qui tournent ou pulsent doucement, underline animé sur les liens
+Transitions inter-pages : effet de rideau coulissant Orange/Bleu avec nom SPVLolobo lors du changement de page via React Router
+Slider/carrousel d'images principal spectaculaire sur chaque page avec effet 3D flip ou cube optionnel
+Animations culturelles continues : motifs Baoulé en SVG qui s'animent en boucle en arrière-plan (rotation lente, pulsation, défilement)
+Scroll indicator animé et décoré aux couleurs SPVLolobo sur la page principale
+
+
+Fonctionnalités générales :
+
+Navigation fluide entre toutes les pages avec transitions animées via React Router
+Navbar fixe avec nom SPVLolobo visible en permanence
+Sections bien structurées avec titres, textes et placeholders d'images
+Footer artistique avec motifs culturels Baoulé animés et nom SPVLolobo
+Effets hover élégants et dynamiques sur tous les éléments interactifs
+Lecteur vidéo intégré et stylisé sur les pages Village, Sous-préfecture et AOL
+Site entièrement responsive (mobile, tablette, desktop)
+
+
+Structure des composants React suggérée :
+src/
+├── components/
+│   ├── Navbar.jsx
+│   ├── Footer.jsx
+│   ├── SplashScreen.jsx
+│   ├── Slider.jsx
+│   ├── BaouleDecor.jsx
+│   └── PageTransition.jsx
+├── pages/
+│   ├── Home.jsx
+│   ├── Village.jsx
+│   ├── SousPrefecture.jsx
+│   └── AOL.jsx
+├── data/
+│   ├── village.json
+│   ├── sousprefecture.json
+│   └── aol.json
+├── styles/
+│   ├── global.css
+│   ├── animations.css
+│   └── baoule.css
+└── App.jsx
+
+Génère un code propre, commenté, performant et modulaire, prêt à être lancé avec npm create vite@latest ou create-react-app.
