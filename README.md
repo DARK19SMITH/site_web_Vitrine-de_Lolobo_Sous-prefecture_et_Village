@@ -2,6 +2,7 @@
 
 Portail officiel du village de Lolobo et de sa Sous-préfecture — Région de Gbêkê, Département de Béoumi, Côte d'Ivoire.
 
+Afficher l'image Afficher l'image Afficher l'image Afficher l'image
 
 📌 Aperçu
 SPVLolobo est un site vitrine moderne dédié à la sous-préfecture et au village de Lolobo. Il présente :
