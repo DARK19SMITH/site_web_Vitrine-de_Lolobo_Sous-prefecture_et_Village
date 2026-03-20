@@ -324,6 +324,17 @@ const SousPrefecture: FC = () => {
                 </div>
               ))}
             </div>
+            <div className="rounded-3xl overflow-hidden shadow-xl border border-border h-80">
+  <iframe
+    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31627.979392728477!2d-5.405982969124247!3d7.736942381303287!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xfb81ff1bac0bbfb%3A0xc842913935e5428d!2sLolobo!5e0!3m2!1sfr!2sci!4v1773990309208!5m2!1sfr!2sci"
+    width="100%"
+    height="100%"
+    style={{ border: 0 }}
+    allowFullScreen
+    loading="lazy"
+    referrerPolicy="no-referrer-when-downgrade"
+  />
+</div>
           </motion.div>
 
           <motion.div

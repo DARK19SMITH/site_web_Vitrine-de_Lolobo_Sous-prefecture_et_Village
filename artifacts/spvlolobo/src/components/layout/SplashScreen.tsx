@@ -39,7 +39,7 @@ export const SplashScreen: FC<SplashScreenProps> = ({ onComplete }) => {
             className="relative z-10 flex flex-col items-center"
           >
             <h1 className="text-6xl md:text-8xl font-display font-bold text-primary text-glow-primary mb-4 tracking-wider">
-              SPVLolobo
+              Lolobo_S/P et Village
             </h1>
             <motion.div 
               initial={{ scaleX: 0 }}
