@@ -1,6 +1,6 @@
 import { FC } from "react";
 import { Link } from "wouter";
-import { Phone, MapPin } from "lucide-react";
+import { Phone, MapPin, Mail } from "lucide-react";
 import { BaouleDecor } from "@/components/decor/BaouleDecor";
 
 export const Footer: FC = () => {
@@ -41,7 +41,11 @@ export const Footer: FC = () => {
               </li>
               <li className="flex items-center gap-3">
                 <Phone className="text-accent flex-shrink-0" size={20} />
-                <span>+225 00 00 00 00 00</span>
+                <span>+225 07 07 67 22 58</span>
+              </li>
+              <li className="flex items-center gap-3">
+               <Mail className="text-accent flex-shrink-0" size={20} />
+               <span>golyloloboakoundaoufle@gmail.com</span>
               </li>
             </ul>
           </div>

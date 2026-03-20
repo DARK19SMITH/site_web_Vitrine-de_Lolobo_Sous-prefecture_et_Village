@@ -193,7 +193,7 @@ const SousPrefecture: FC = () => {
                   3ème Sous-Préfet
                 </span>
                 <h3 className="text-2xl font-display font-bold text-foreground mb-1">
-                  À compléter
+                  Mlle. OURE Affi Agnès
                 </h3>
                 <p className="text-sm font-semibold text-primary mb-4">
                   18 janvier 2023 — 26 mars 2024

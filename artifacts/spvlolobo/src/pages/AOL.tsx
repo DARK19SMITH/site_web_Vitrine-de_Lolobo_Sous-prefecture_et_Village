@@ -165,7 +165,7 @@ const AOL: FC = () => {
               <div className="space-y-4">
                 <div className="flex items-center gap-3 bg-white/20 p-3 rounded-lg">
                   <Phone />
-                  <span className="font-medium">+225 00 00 00 00 00</span>
+                  <span className="font-medium">+225 07 07 67 22 58</span>
                 </div>
               </div>
             </div>
