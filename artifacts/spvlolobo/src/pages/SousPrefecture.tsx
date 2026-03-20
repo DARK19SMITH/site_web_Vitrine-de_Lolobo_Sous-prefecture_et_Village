@@ -203,6 +203,43 @@ const SousPrefecture: FC = () => {
                 </p>
               </div>
             </motion.div>
+             {/* Sous-Préfet 4 — ALOKO N'GUESSAN */}
+<motion.div
+  initial={{ x: 30, opacity: 0 }}
+  whileInView={{ x: 0, opacity: 1 }}
+  viewport={{ once: true }}
+  className="bg-card border border-border rounded-3xl shadow-lg overflow-hidden flex flex-col md:flex-row-reverse bg-card border-2 border-green-500 rounded-3xl shadow-lg overflow-hidden flex flex-col md:flex-row-reverse"
+>
+  <div className="md:w-64 lg:w-72 flex-shrink-0">
+    <img
+      src={`${import.meta.env.BASE_URL}images/sousPrefet4_portrait.jpg.jpeg`}
+      alt="Mme ALOKO N'GUESSAN — portrait officiel"
+      className="w-full h-full object-cover object-top"
+    />
+  </div>
+  <div className="p-8 flex-1 flex flex-col justify-center">
+    <div className="flex flex-wrap gap-2 mb-4">
+      <span className="inline-block bg-primary/10 text-primary text-xs font-bold px-3 py-1 rounded-full uppercase tracking-widest w-fit">
+        4ème Sous-Préfet
+      </span>
+      <span className="inline-block bg-green-100 text-green-700 text-xs font-bold px-3 py-1 rounded-full uppercase tracking-widest w-fit flex items-center gap-1">
+        ● En fonction
+      </span>
+    </div>
+    <h3 className="text-2xl font-display font-bold text-foreground mb-1">
+      Mme ALOKO N'GUESSAN
+    </h3>
+    <p className="text-sm text-muted-foreground italic mb-1">
+      née CHO ANGE LESLIE MICHELLE
+    </p>
+    <p className="text-sm font-semibold text-primary mb-4">
+      Depuis le 14 août 2025
+    </p>
+    <p className="text-muted-foreground leading-relaxed">
+      Quatrième et actuelle sous-préfet de Lolobo, Mme ALOKO N'GUESSAN poursuit le développement administratif et communautaire de la circonscription depuis sa prise de fonction en août 2025.
+    </p>
+  </div>
+</motion.div>
 
           </div>
         </div>
