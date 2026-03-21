@@ -140,12 +140,6 @@ const Home: FC = () => {
                   alt="Culture" 
                   className="rounded-2xl w-full h-64 object-cover shadow-lg transform translate-y-8"
                 />
-                {/* landscape agriculture field */}
-                <img 
-                  src="https://pixabay.com/get/gcc083d4ab562b80f5c94404629d79e126f2691eca87dc72e2c3185c3b75bd18c128be9a6de4c7b82117d1dd4ffb35e972485d58c8d0f3144217bd0aa39997826_1280.jpg" 
-                  alt="Nature" 
-                  className="rounded-2xl w-full h-64 object-cover shadow-lg"
-                />
               </div>
             </motion.div>
 
