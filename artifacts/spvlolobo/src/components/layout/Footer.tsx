@@ -14,7 +14,6 @@ export const Footer: FC = () => {
       
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-16 pb-8 relative z-10">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-12">
-          
           <div>
             <h3 className="text-3xl font-display font-bold text-accent mb-4">SPVLolobo</h3>
             <p className="text-secondary-foreground/80 leading-relaxed mb-6">
@@ -22,7 +21,6 @@ export const Footer: FC = () => {
               Mettant en lumière notre riche héritage culturel et notre vision pour l'avenir.
             </p>
           </div>
-
           <div>
             <h4 className="text-xl font-bold mb-4 border-b border-accent/30 pb-2 inline-block">Liens Rapides</h4>
             <ul className="space-y-3">
@@ -31,7 +29,6 @@ export const Footer: FC = () => {
               <li><Link href="/sous-prefecture" className="hover:text-accent transition-colors flex items-center gap-2"><span className="w-1.5 h-1.5 bg-primary rounded-full"></span> La Sous-préfecture</Link></li>
             </ul>
           </div>
-
           <div>
             <h4 className="text-xl font-bold mb-4 border-b border-accent/30 pb-2 inline-block">Contact</h4>
             <ul className="space-y-4">
@@ -44,12 +41,11 @@ export const Footer: FC = () => {
                 <span>+225 07 07 67 22 58</span>
               </li>
               <li className="flex items-center gap-3">
-               <Mail className="text-accent flex-shrink-0" size={20} />
-               <span>golyloloboakoundaoufle@gmail.com</span>
+                <Mail className="text-accent flex-shrink-0" size={20} />
+                <span>golyloloboakoundaoufle@gmail.com</span>
               </li>
             </ul>
           </div>
-          
         </div>
         
         <div className="mt-16 pt-8 border-t border-white/10 text-center text-sm text-secondary-foreground/60 flex flex-col md:flex-row justify-between items-center gap-4">
@@ -60,6 +56,11 @@ export const Footer: FC = () => {
             <span className="w-2 h-2 bg-white rounded-full"></span>
           </div>
         </div>
+
+        <p className="mt-4 text-center text-sm text-secondary-foreground/60">
+          Conçu par <a href="https://migueldevportofolio.vercel.app" target="_blank" rel="noopener noreferrer" className="text-accent hover:text-white transition-colors font-semibold">Miguel Koffi</a>
+        </p>
+
       </div>
     </footer>
   );
