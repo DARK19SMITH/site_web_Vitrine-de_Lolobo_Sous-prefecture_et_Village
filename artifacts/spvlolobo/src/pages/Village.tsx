@@ -102,7 +102,7 @@ const Village: FC = () => {
           <div className="grid grid-cols-1 sm:grid-cols-3 gap-8 relative z-10">
             <div className="bg-background p-6 rounded-2xl">
               <h3 className="text-xl font-bold text-secondary mb-3">Agriculture</h3>
-              <p className="text-muted-foreground">Culture de rente (Cacao, Café) et cultures vivrières (Igname, Manioc, Banane plantain).</p>
+              <p className="text-muted-foreground">Nous avons comme culture de rente le noix de cajou (Anacarde).</p>
             </div>
             <div className="bg-background p-6 rounded-2xl">
               <h3 className="text-xl font-bold text-secondary mb-3">Élevage</h3>
