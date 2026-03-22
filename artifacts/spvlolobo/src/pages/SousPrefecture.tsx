@@ -6,9 +6,10 @@ import { BaouleDecor } from "@/components/decor/BaouleDecor";
 
 const SousPrefecture: FC = () => {
   const villages = [
-    "Lolobo", "N'zengouanou", "Appani-Mangouakro", "Alloko-Sakassou",
-    "Ahounzè", "Grohoblé", "Yohouzou", "Blandéfla", "Koffikro",
-    "Prikro", "Assohoun", "Kouamékro", "Anouan", "Sièhoulétiè", "Bodokro-Gôly"
+    "Lolobo", "N'zengouanou", "Alloko-Sakassou", "Appani-Mangouakro",
+"Dieribanouan", "Agbanou", "Ahounzè-Kouadiokro", "Ahounzè",
+"Assekro", "Sahue", "Nangre", "Drimbo",
+"Demakro", "Samoïkro", "Kongola"
   ];
 
   return (
