@@ -377,6 +377,8 @@ const SousPrefecture: FC = () => {
                   "Bureau de l'ANADER",
                   "11 écoles primaires publiques (dont 3 au chef-lieu)",
                   "Collège privé « Excellence Divine »",
+                  "aujourd'hui, Lolobo dispose d'un Collègue Moderne public",
+                  "un bureau de vote",
                 ].map((s, i) => (
                   <li key={i} className="flex items-start gap-3">
                     <span className="w-2 h-2 mt-2 bg-primary rounded-full flex-shrink-0"></span>
