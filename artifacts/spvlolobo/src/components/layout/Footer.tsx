@@ -58,7 +58,7 @@ export const Footer: FC = () => {
         </div>
 
         <p className="mt-4 text-center text-sm text-secondary-foreground/60">
-          Conçu par <a href="https://migueldevportofolio.vercel.app" target="_blank" rel="noopener noreferrer" className="text-accent hover:text-white transition-colors font-semibold">Miguel Koffi</a>
+          Conçu par <a href="https://miguel-the-dev.vercel.app" target="_blank" rel="noopener noreferrer" className="text-accent hover:text-white transition-colors font-semibold">Miguel Koffi</a>
         </p>
 
       </div>
